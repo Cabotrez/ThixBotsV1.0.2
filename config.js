@@ -1,0 +1,17 @@
+var config = {};
+config.account = {};
+config.verbosityLevel = 4;
+config.userAgent = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36';
+config.feederServer = "ws://127.0.0.1:8081";
+config.serverPort = 8081; //
+config.client_uuid = "ThixBots"; // Don´t Change! (It wont not work) !!
+config.proxies = "proxy.txt";
+config.botsPerIp = 18;
+config.onboardingTimer = 35;
+config.maxBots = Infinity;
+config.useRandomSkinName = false;
+config.useStaticName = "Name";
+config.botMode = "default";
+config.minimumMassBeforeFeed = 0;
+config.enableSaveMoveTo = true;
+module.exports = config;
